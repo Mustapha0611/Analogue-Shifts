@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Bai Jamjuree', sans-serif;
+ }
+ .container{
+     background-color: #050505;
+     height: auto;
+ }
+ 
+ .header-contact{
+     width: 100%;
+    display: flex; 
+    justify-content: center;
+    background-color: #222;
+ }
+ 
+ .header-contact > span{
+     display: inline-block;
+     color: #fff;
+     margin: 9px 10px;
+ }
+ 
+ header{
+     width: 100%;
+     display: flex;
+     background-color: #050505;
+     height: 7vh;
+ }
+ 
+ header > div >img{
+     height: 7vh;
+     width: 100px;
+ }
+ 
+ .burger{
+     position: absolute;
+     height: 45px;
+     top: 7vh;
+     cursor: pointer;
+     right: 6%;
+ }
+ 
+ .nav{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222;
+    width: 99%;
+    left: -100%;
+    height: 93vh; 
+ }
+ 
+ .close{
+     position:absolute;
+     color: white;
+     font-size: 24px;
+     top: 10px;
+     cursor: pointer;
+     right: 6%;
+ }
+ 
+ .nav > a{
+     text-decoration: none;
+     color: rgb(194, 194, 194);
+     margin: 22px 30px;
+     font-size: 2em;
+ }
+ .active{
+     color: white;
+ }
+
+ .main > div > img{
+    
+     width: 90px;
+     margin: 5px 5%;
+     border-radius: 50%;
+ }
+ .main > div {
+     color: #fff;
+ }
+
+ .main > div > h1{
+     margin: 0 5%;
+     font-size: 2em;
+     font-weight: 100;
+ }
+
+ .main > div >p{
+margin: 20px 5%;
+   padding: 10px 2%;
+   border-left: 4px solid goldenrod;
+ }
+
+ .list-of-skills{
+     background-color: #222;
+     display: flex;
+     flex-direction: column;
+     margin: 50px 0 ;
+     color: #fff;
+ }
+
+ .list-of-skills > h1{
+     font-weight: lighter;
+     margin: 10px 5%;
+ }
+
+ .list-of-skills > ul{
+     list-style: none;
+ }
+
+ .list-of-skills > ul > li{
+     margin: 10px 5%;
+     padding: 10px 0;
+     border-top: 1px solid rgb(66, 65, 65);
+ }
+
+ .list-of-skills > div{
+    font-weight: lighter;
+    margin: 10px 5%;
+    padding: 20px 0;
+     border-top: 1px solid rgb(66, 65, 65);;
+ }
+
+ .list-of-skills > div >a{
+    font-size: 2.5em;
+    font-weight: lighter;
+   text-decoration: none;
+   color: #fff;
+    padding: 20px 0;
+   
+ }
+ .list-of-skills > div >img{
+     width: 30px;
+ }
+
+ .info{
+     margin: 0px 5%;
+     border-top: 1px solid rgb(66, 65, 65);
+ }
+
+ .info > div > h3{
+    margin: 20px 0;
+    font-weight: 100;
+    color: white;
+}
+
+.info > div > a{
+    margin: 10px 0;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5em;
+
+}
+
+.info > div > a > h1 {
+    font-weight: lighter;
+}
