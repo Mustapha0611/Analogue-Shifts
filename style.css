@@ -100,9 +100,10 @@ visibility: hidden;
      display: inline-block;
      margin: 10px 20px;
      background-color: rgb(0, 0, 0);
-     padding: 15px 25px;
+     padding: 7px 45px;
      font-size: 1.5em;
      border-radius: 10px;
+     transition: .2s;
      color: rgb(255, 255, 255);
      border: #fff 1px solid;
      text-decoration: none;
@@ -110,7 +111,7 @@ visibility: hidden;
  .quick-links >a:hover{
      color: black;
      background-color: #fff;
-     transition: .3s;
+     outline: 3px solid rgb(153, 153, 153) ;
  }
  footer > div > h3 {
     margin: 50px 5%;
@@ -273,16 +274,17 @@ footer > ul >li >a{
         margin: 10px 20px;
         width: 50%;
         background-color: rgb(0, 0, 0);
-        padding: 15px 25px;
+        padding: 10px 25px;
         text-align: center;
         border-radius: 10px;
-        transition: .3s;
+        transition: .2s;
         color: rgb(255, 255, 255);
         border: #fff 1px solid;
         text-decoration: none;
     }
     .quick-links >a:hover{
         color: black;
+        outline: 3px solid rgb(153, 153, 153) ;
         background-color: #fff;
     }
       footer > div > h3 {
