@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="About.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.0-beta.3/vue.global.prod.js"></script>
     <link rel="shortcut icon" href="images/favicon.jpg"  sizes="64x32" type="image/x-icon">
     <title>About Us</title>
   </head>
@@ -48,6 +49,17 @@
                 and sustainable while developing the best remote teams and Community
             </p>
         </section>
+        <h2 class="news">News</h2>
+        <div id="app">
+        <ul>
+          <li v-for="News in newsHeadline" :key="News.id">
+            <img :src="News.img" alt="" srcset="">
+            <h1>{{ News.title }}</h1>
+            <p>{{ News.description }}</p>
+            <a :href="News.url">Read More</a>
+          </li>
+        </ul>
+        </div>
       <footer>
         <div>
           <h3>NEED HELP FINDING TALENTS?</h3>
@@ -62,5 +74,6 @@
     </main>
   </body>
   <script src="anime.min.js"></script>
+  <script src="app.js"></script>
   <script src="Script.js"></script>
 </html>
