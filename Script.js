@@ -32,7 +32,7 @@ var splide = new Splide( '.splide', {
   breakpoints: {
     800: {
       perPage: 1,
-      padding:'7rem'
+      padding:'5em'
     },
   },
 }
