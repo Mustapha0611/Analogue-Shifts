@@ -20,11 +20,21 @@ close.addEventListener("click", () => {
   });
 });
 
-//Vue widget
-const app = createApp({
-  data() {
-    return {
-      message: 'Hello Vue!'
-    }
-  }
-}).mount('#app')
+
+
+//Swiper js
+
+var splide = new Splide( '.splide', {
+  perPage:2,
+  width: '90rem',
+  breakpoints: {
+    800: {
+      perPage: 1,
+      padding:'5rem'
+    },
+  },
+}
+  
+);
+
+splide.mount();
