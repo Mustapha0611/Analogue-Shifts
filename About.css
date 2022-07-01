@@ -118,7 +118,8 @@
   .splide{
     background-color: rgb(41, 38, 38);
     padding: 30px 0;
-    width: 100;
+
+    /* width: 100; */
     height: auto;
   }
  
@@ -323,12 +324,14 @@ footer > ul >li >a{
   .splide{
     background-color: rgb(41, 38, 38);
     padding: 30px 0;
+    display: flex;
+    justify-content: flex-start;
     /* width: 100;
     height: auto; */
   }
- .splide__list{
+ /* .splide__list{
   width: 100%;
- }
+ } */
   .splide__slide{
     color: #fff;
     background-color: rgb(31, 32, 32);

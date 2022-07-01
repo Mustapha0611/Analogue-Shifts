@@ -25,12 +25,14 @@ close.addEventListener("click", () => {
 //Swiper js
 
 var splide = new Splide( '.splide', {
-  perPage:2,
-  width: '90rem',
+  perPage:3,
+  padding:'8rem',
+  focus:'center',
+  width: '100rem',
   breakpoints: {
     800: {
       perPage: 1,
-      padding:'5rem'
+      padding:'7rem'
     },
   },
 }
