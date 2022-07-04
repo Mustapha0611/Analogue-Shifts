@@ -90,6 +90,62 @@ visibility: hidden;
      line-height: 1.9;
      border-left: 2px solid goldenrod;
  }
+ .Services-header{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+.Services-header >h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 250;
+    margin: 0 5%;
+}
+.our-services{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(22, 22, 22);
+}
+
+.our-services > div{
+    background-color: rgb(31, 30, 30);
+    margin:5% 3%;
+    border-top: 4px solid goldenrod;
+    height:500px;
+    width: 400px;
+}
+
+.our-services > div > img{
+    width: 90px;
+    margin: 10px 5%;
+    border-radius: 50%;
+}
+.our-services > div >h4{
+    font-size: 1.5em;
+    color: rgb(131, 121, 121);
+    margin:5px 5%;
+    font-weight: lighter;
+}
+.our-services > div>h2{
+    font-size: 1.5em;
+    margin:5px 5%;
+    font-weight: lighter;
+}
+.our-services > div>a{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid gold;
+    font-size: 1em;
+    color: #fff;
+    margin:50px 5%;
+    margin-top: 230px;
+    
+}
+.our-services > div> a > img{
+    width: 10px;
+}
+
  .quick-links{
      color: white;
      display: flex;
@@ -248,9 +304,14 @@ footer > ul >li >a{
     
      .content-one{
          margin: 90px 3%;
+         width: 85%;
          font-weight: lighter;
-         font-size: 2em;
+         
      }
+     .content-one >h2{
+        font-weight: lighter;
+        font-size: 2.3em;
+    }
     
      .content-two{
          margin: 70px 5%;
@@ -262,6 +323,63 @@ footer > ul >li >a{
          line-height: 1.9;
          border-left: 2px solid goldenrod;
      }
+     .Services-header{
+        display: flex;
+        align-items: center;
+        height: 20vh;
+    }
+    .Services-header >h1{
+        color: #fff;
+        font-size: 3em;
+        font-weight: 250;
+        margin: 0 5%;
+    }
+    .our-services{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+        background-color: rgb(22, 22, 22);
+    }
+    
+    .our-services > div{
+        background-color: rgb(31, 30, 30);
+        margin:10% 5%;
+        border-left: 4px solid goldenrod;
+        height:350px;
+      
+    }
+    
+    .our-services > div > img{
+        width: 90px;
+        margin: 10px 5%;
+        border-radius: 50%;
+    }
+    .our-services > div >h4{
+        font-size: 1.5em;
+        color: rgb(131, 121, 121);
+        margin:5px 5%;
+        font-weight: lighter;
+    }
+    .our-services > div>h2{
+        font-size: 2em;
+        margin:5px 5%;
+        font-weight: lighter;
+    }
+    .our-services > div>a{
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 2px solid goldenrod;
+        font-size: 1em;
+        color: #fff;
+        margin:50px 5%;
+        margin-top: 80px;
+        
+    }
+    .our-services > div> a > img{
+        width: 10px;
+    }
+    
      .quick-links{
         color: white;
         display: flex;
