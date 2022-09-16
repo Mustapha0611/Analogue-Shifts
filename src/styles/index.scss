@@ -1,0 +1,47 @@
+html{
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    @apply transition-all duration-300;
+}
+
+.navbar{
+
+    .menu{
+        @apply space-x-10;
+        a{
+            @apply inline-block uppercase font-semibold text-zinc-300 hover:text-primary;
+            font-size: 1.23rem;
+        }
+    }
+
+    .find-btn{
+        @apply px-10 py-2.5 rounded-xl bg-primary text-white font-bold text-lg capitalize
+            hover:bg-transparent hover:text-primary hover:ring-1 ring-primary;
+    }
+}
+ 
+.companies {
+    img{
+        @apply h-24;
+    }
+}
+
+.btn-lg{
+    @apply text-xl px-10 py-5 rounded-lg bg-primary text-white hover:bg-transparent 
+        font-semibold hover:text-primary hover:ring-2 ring-primary 
+        inline-flex items-center gap-5;
+}
+
+@import 'navbar';
+@import 'home';
+@import 'footer';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
